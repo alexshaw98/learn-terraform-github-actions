@@ -5,7 +5,6 @@ on:
 env:
   TF_CLOUD_ORGANIZATION: "1-14-2025-api"
   TF_API_TOKEN: "${{ secrets.TF_API_TOKEN }}"
-  TF_WORKSPACE: "learn-terraform-github-actions3"
   CONFIG_DIRECTORY: "./"
 jobs:
   terraform:
@@ -42,7 +41,7 @@ jobs:
         uses: actions/github-script@v6
         id: plan-comment
         with:
-          github-token: ${{ secrets.TF_API_TOKEN}}
+          github-token: ${{ secrets.GITH }}
             script: |
               // 1. Retrieve existing bot comments for the PR
               const { data: comments } = await github.rest.issues.listComments({
