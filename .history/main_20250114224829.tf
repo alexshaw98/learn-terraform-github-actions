@@ -33,8 +33,8 @@ resource "aws_vpc" "app1" {
   tags = {
     Name    = "app1"
     Service = "application1"
-    Owner   = "alex"
-    Planet  = "earth"
+    Owner   = "Chewbacca"
+    Planet  = ""
   }
 }
 
