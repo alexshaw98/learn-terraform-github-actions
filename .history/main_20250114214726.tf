@@ -5,7 +5,7 @@
 
 
 provider "aws" {
-  region = "us-east-1"
+  region = "eu-west-1"
 }
 
 terraform {
@@ -14,7 +14,7 @@ terraform {
     organization = "1-14-2025-api"
 
     workspaces {
-      name = "learn-terraform-github-actions3"
+      name = "learn-terraform-github-actions"
     }
   }
 

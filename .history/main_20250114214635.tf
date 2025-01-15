@@ -5,16 +5,16 @@
 
 
 provider "aws" {
-  region = "us-east-1"
+  region = "eu-eest-1"
 }
 
 terraform {
 
   cloud {
-    organization = "1-14-2025-api"
+    organization = "FlemingFriday"
 
     workspaces {
-      name = "learn-terraform-github-actions3"
+      name = "learn-terraform-github-actions"
     }
   }
 
