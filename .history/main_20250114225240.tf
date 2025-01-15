@@ -79,7 +79,7 @@ resource "aws_security_group" "app1-sg01-servers" {
     Name    = "app1-sg01-servers"
     Service = "application1"
     Owner   = "alex"
-    Planet  = "earth"
+    Planet  = "Musafar"
   }
 
 }
